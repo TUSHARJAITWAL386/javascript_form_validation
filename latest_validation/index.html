@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">'
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1><u>Registration Form</u></h1>
+    <form id="myForm" aautocomplete="off">
+      <label for="fname" class="form-label">First Name</label><br>
+      <input type="text" id="fname" name="fname" class="form-input" placeholder="Firstname">
+      <p id="test1"></p>
+  
+      <label for="lname" class="form-label">Last Name</label><br>
+      <input type="text" id="lname" name="lname" class="form-input" placeholder="Lastname">
+      <p id="test2"></p>  
+      <label for="email" class="form-label">Email</label><br>
+      <input type="email" id="email" name="email" class="form-input" placeholder="email" style="width: 280px;">
+      <p id="test3"></p>  
+      <label for="address" class="form-label">Address</label><br>
+      <input type="text" id="address" name="address" class="form-input" placeholder="address">
+      <p id="test4"></p>  
+      <label for="contact" class="form-label">Contact</label><br>
+      <input type="contact" id="contact" name="contact" class="form-input" placeholder="contact" style="width: 280px;">
+      <p id="test5"></p>
+
+      <div class="radio-set">
+        <label for="gender" >Gender</label><br>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender">
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender"> 
+        <br>
+        <span id="test8"></span><br>
+        <br>
+      </div>
+      
+      <div class="check-box">
+        <label for="language">Language Known</label><br>
+        <label for="hindi">Hindi</label>
+        <input type="checkbox" id="hindi" name="hindi">
+
+        <label for="english">English</label>
+        <input type="checkbox" id="english" name="english">
+
+        <label for="french">French</label>
+        <input type="checkbox" id="french" name="french">
+        <br>
+        <span id="test9"></span><br>
+        <br>
+      </div>
+
+
+
+      <label for="password" class="form-label">Password</label><br>
+      <input type="password" id="password" name="password" class="form-input" placeholder="Password">
+      <i class="far fa-eye" id="togglePassword" style="margin-left: -45px; cursor: pointer; height: 13px"></i>
+      <i style="height: 13px;" type="button" id="togglePassword" onclick="togglePasswordVisibility()" class="fa fa-eye"></i>
+      <p id="test6"></p>  
+      <label for="confirm-password" class="form-label">Confirm-Password</label><br>
+      <input type="password" id="confirm-password" name="confirm-password" class="form-input" placeholder="Confirm-Password">
+      <p id="test7"></p>  
+      <input type="submit" class="form-submit" value="Submit">
+    </form>
+  </div>
+  
+  <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+.container{
+    background-image: url(sample.jpg);
+    padding: 30px;
+    margin-left: 800px;
+    margin-right: 200px;
+    width: 700px;
+    margin: 70px;
+    border-radius: 20px;
+}
+label{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:aquamarine;
+    font-weight: bold;
+}
+input{
+    padding: 10px;
+    border-radius: 8px;
+    width:350px;
+}
+h1{
+    text-align: center;
+    color:white;
+}
+.mgt-3{
+    margin-left: 177px;
+}
+
+body {
+    margin-left: 449px;
+    background-color: lightcyan;
+}
+
+.submit-btn {
+    width: 150px; 
+    font-size: 20px; 
+    background-color:lightblue;
+}
